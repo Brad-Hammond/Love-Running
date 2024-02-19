@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 /* Asteriks wildcard selector to overide default styles added by browser*/
 * {
   padding: 0;
@@ -5,11 +8,21 @@
   box-sizing: border-box;
 }
 
+/*General styles*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #3a3a3a;
+}
+
 header {
   background-color: lightcoral;
 }
 main {
   background-color: lightblue;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
 }
 footer {
   background-color: orange;
