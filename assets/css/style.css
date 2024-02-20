@@ -156,6 +156,17 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
+
+/* Meetup times section */
+#times {
+  background-image: url("../images/dublin-city-img.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
